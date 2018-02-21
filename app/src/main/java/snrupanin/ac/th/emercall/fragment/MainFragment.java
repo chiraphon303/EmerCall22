@@ -1,5 +1,7 @@
 package snrupanin.ac.th.emercall.fragment;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -34,6 +36,7 @@ public class MainFragment extends Fragment{
             public void onClick(View view) {
 
                 Log.d(tag,"You click Image Station1");
+                 callStation("1111");
 
             }
         });
@@ -43,6 +46,7 @@ public class MainFragment extends Fragment{
             @Override
             public void onClick(View view) {
                Log.d(tag,"Click Text " + getString(R.string.staton1));
+                callStation("1111");
             }
         });
 
@@ -58,7 +62,11 @@ public class MainFragment extends Fragment{
 
     public void callStation(String numberCall) {
 
-    }
+        Intent intent = new Intent(Intent.ACTION_CALL);
+        intent.setData(Uri.parse("tel:=" + numberCall));
+        startActivity(intent);
+
+    } // callStation
 
 
     @Nullable
