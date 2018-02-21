@@ -26,12 +26,15 @@
 
                 <!--Station1-->
                 <ImageView
+                    android:id="@+id/imageviewStation1"
                     android:src="@drawable/station1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" />
 
                 <!--Title-->
                 <TextView
+                    android:clickable="true"
+                    android:id="@+id/textViewStation1"
                     android:layout_alignParentBottom="true"
                     android:padding="5dp"
                     android:gravity="center_horizontal"
@@ -39,7 +42,7 @@
                     android:background="#82000000"
                     android:textStyle="bold"
                     android:textSize="18sp"
-                    android:text="station 1"
+                    android:text="@string/staton1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
@@ -54,9 +57,13 @@
 
                 <!--Station2-->
                 <ImageView
-                    android:src="@drawable/station2"
+
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/station2" />
 
                 <!--Title-->
                 <TextView
@@ -67,7 +74,7 @@
                     android:background="#82000000"
                     android:textStyle="bold"
                     android:textSize="18sp"
-                    android:text="station 1"
+                    android:text="@string/staton2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
@@ -106,7 +113,7 @@
                     android:background="#82000000"
                     android:textStyle="bold"
                     android:textSize="18sp"
-                    android:text="station 1"
+                    android:text="@string/staton3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
@@ -134,7 +141,7 @@
                     android:background="#82000000"
                     android:textStyle="bold"
                     android:textSize="18sp"
-                    android:text="station 1"
+                    android:text="@string/staton4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 

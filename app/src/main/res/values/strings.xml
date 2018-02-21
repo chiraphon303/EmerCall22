@@ -3,4 +3,10 @@
 
     <string name="close">close Drawer</string>
     <string name="open">Open Draer</string>
+
+    <string name="staton1">เหตุด่วน เหตุร้าย</string>
+    <string name="staton2">แจ้งอุบัติเหตุ</string>
+    <string name="staton3">รถหาย</string>
+    <string name="staton4">เจ็บปาย ฉุกเฉิน</string>
+
 </resources>
